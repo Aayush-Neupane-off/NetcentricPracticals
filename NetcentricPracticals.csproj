@@ -1,11 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <!-- Exe = Console + GUI, WinExe = GUI only -->
+    <OutputType>Exe</OutputType>  
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>NetcentricPracticals.InterfaceDemo</StartupObject>
+
+    <!-- Change this per practical (example: Practical11) -->
+   <StartupObject>NetcentricPracticals.FileIODemo</StartupObject>
   </PropertyGroup>
+  
 
 </Project>
+
