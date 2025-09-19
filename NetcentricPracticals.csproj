@@ -11,7 +11,7 @@
     <Nullable>enable</Nullable>
 
     <!-- Change this per practical (example: Practical11) -->
-   <StartupObject>NetcentricPracticals.FileIODemo</StartupObject>
+   <StartupObject>NetcentricPracticals.AttributeDemo</StartupObject>
   </PropertyGroup>
   
 
